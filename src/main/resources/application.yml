@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bank-lab
+
+server:
+  address: 127.0.0.1
+  port: ${PORT:8080}
+
+# TODO этап 1: подключение PostgreSQL через переменные окружения, Flyway,
+# Hibernate ddl-auto=validate и отдельные настройки для интеграционных тестов.
+# Здесь намеренно нет DataSource, H2 и автоматического создания таблиц.
